@@ -1,0 +1,19 @@
+.about__text {
+    line-height: 1.75;
+}
+
+.about {
+    img {
+        width: 90%;
+        margin-left: auto;
+    }
+}
+
+@include media-breakpoint-between(md, lg) {
+    .about {
+        img {
+            position: sticky;
+            top: 15%;
+        }
+    }
+}

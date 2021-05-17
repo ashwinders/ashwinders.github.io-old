@@ -1,0 +1,22 @@
+section {
+    padding-top: 5rem;
+    scroll-margin-top: 1rem;
+}
+
+.section__heading {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@include media-breakpoint-up(md) {
+    section {
+        scroll-margin-top: 2rem;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    section {
+        scroll-margin-top: 3rem;
+    }
+}

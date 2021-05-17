@@ -1,0 +1,15 @@
+{
+  "name": "ashwinders.github.io",
+  "version": "1.0.0",
+  "description": "Ashwinder S. Arora's portfolio",
+  "scripts": {
+    "wsass": "sass --watch scss/style.scss style.css --style compressed",
+    "sass": "sass scss/style.scss style.css --style compressed"
+  },
+  "keywords": [],
+  "author": "Ashwinder S. Arora",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.5.3"
+  }
+}

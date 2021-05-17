@@ -1,0 +1,83 @@
+$font-family: "Merriweather", serif;
+
+* {
+    font-family: $font-family;
+}
+
+$border-radius: 0.3em;
+
+$custom-accent-color: #4169e1;
+// $custom-accent-color: #0B8BD5;
+
+$custom-primary-color: $custom-accent-color;
+
+$custom-secondary-color: #4ecdc4;
+
+// $custom-secondary-color: #17c3b2;
+// $custom-accent-color: #17c3b2;
+
+$theme-colors: (
+    "primary": $custom-primary-color,
+    "secondary": $custom-secondary-color,
+);
+
+$base-text-color: #444E5F;
+
+$body-bg: #F8F9FA;
+
+$body-color: $base-text-color;
+
+$link-color: $custom-accent-color;
+$link-hover-color: $base-text-color;
+
+$headings-color: $base-text-color;
+
+$btn-padding-x: 1rem;
+$btn-padding-y: 0.5rem;
+
+$ui-border-radius: 1rem;
+
+// $theme-colors: (
+//     "100": "#EDF2FB",
+//     "200": "#E2EAFC",
+//     "300": "#D7E3FC",
+//     "400": "#CCDBFD",
+//     "500": "#C1D3FE",
+//     "600": "#B6CCFE",
+//     "700": "#ABC4FF",
+// );
+
+// $dark-colors: (
+//     "100": "#40414f",
+//     "200": "#24252D"
+// );
+
+// :root {
+//     @each $key, $value in $theme-colors {
+//         --theme-color-#{$key}: #{$value};
+//     }
+//     @each $key, $value in $dark-colors {
+//         --dark-color-#{$key}: #{$value};
+//     }
+// }
+
+// @each $key, $value in $theme-colors {
+//     .theme-color-#{$key} {
+//         color: #{$value};
+//     }
+// }
+// @each $key, $value in $dark-colors {
+//     .dark-color-#{$key} {
+//         color: #{$value};
+//     }
+// }
+
+// $base-text-color: var(--dark-color-100);
+// $headings-color: var(--dark-color-200);
+
+// $h1-font-size: 2.5rem;
+// $h2-font-size: 2.25rem;
+// $h3-font-size: 2rem;
+// $h4-font-size: 1.875rem;
+// $h5-font-size: 1.5rem;
+// $h6-font-size: 1.25rem;

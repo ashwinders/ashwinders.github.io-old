@@ -1,0 +1,54 @@
+html {
+    scroll-behavior: smooth;
+}
+
+strong, 
+b {
+    font-weight: 900;
+}
+
+br {
+    margin-bottom: 1rem;
+}
+
+@include media-breakpoint-down(xs) {
+    .container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+
+a {
+    font-weight: 700;
+}
+
+main > section:target {
+    .section__heading::after {
+        content: "\f0c1";
+        vertical-align: super;
+        font-size: 0.5em;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 700;
+        animation: highlight-target 2s ease-in-out forwards;
+    }
+}
+
+@keyframes highlight-target {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+* {
+    scrollbar-width: thin;
+}
+
+img {
+    max-width: 100%;
+}
